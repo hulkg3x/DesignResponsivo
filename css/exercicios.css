@@ -1,4 +1,8 @@
     /* Iniciando Design Responsivo */
+    .secao {
+
+        width: 100%;
+    }
     img {
         max-width: 100%;
     }
@@ -27,10 +31,6 @@
     .busca {
         float: right;
     }
-    .secao {
-        float: left;
-        width: 33.333%;
-    }
     .mini {
         float: left;
         width: 50%;
@@ -40,4 +40,24 @@
     }
     .barra-nav {
         margin: 0.4em 0;
+    }
+
+    /* Media Queries */
+
+    @media (min-width: 600px) {
+        html {
+            font-size: 1.125em;
+        }
+        .secao {
+            width: 50%;
+            float: left;
+        }
+    }
+    @media (min-width: 1000px) {
+        html {
+            font-size: 1.25em;
+        }
+        .secao {
+            width: 33.333%;
+        }
     }
