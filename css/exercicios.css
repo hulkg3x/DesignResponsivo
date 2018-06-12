@@ -41,7 +41,9 @@
         .barra-nav {
             margin: 0.4em 0;
         }
-        
+        .logo img {
+            width: 200px;
+        }
 
         /* Media Queries */
 
@@ -100,10 +102,42 @@
             padding: 1em 0;
             width: 100%;
         }
+        .menu-abrir,
+        .menu-fechar {
+            background: none;
+            border: 0;
+            outline: 0;
+            -webkit-appearance: none;
+            font-size: 1.6em;
+            text-indent: -999em;
+        }
+        .menu-abrir {
+            height: 0;
+            width: .75em;
+            padding-top: .125em;
+            border-top: .375em double #c0c0c0;
+            border-bottom: .125em solid #c0c0c0;
+
+            vertical-align: middle;
+            margin: 0.5em;
+          
+        }
+        .menu-fechar {
+            position: relative;
+            height: 1em;
+            width: 1em;
+        }
+        .menu-fechar::before {
+            content: '\00D7';
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-indent: 0;
+            color: #c0c0c0;
+        }
     }
     @media not all and (max-width: 600px) {
         .menu-abrir,
         .menu-fechar {
             display: none;
-        }
     }
