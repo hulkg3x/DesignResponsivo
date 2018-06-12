@@ -139,3 +139,9 @@ Curso Web Design Responsivo: Páginas que se adaptam do mobile ao desk: https://
 > As imagens são parte essencial de todas as páginas da Web e quando falamos de Design Responsivo.
 
 - como em tela as image também tem uma enorme importancia em relação aos pixeis.
+
+- E da mesma forma como o menu e o site responsivo podemos usar o ```@media``` para fazer esse trabalho para nós. Basta inserir as declaração CSS nescessaria. 
+
+> Tem um otimo artigo que vai ajudar ate mesmo a mim futuramente :stuck_out_tongue_winking_eye:
+
+- <a href="https://tableless.com.br/imagens-responsivas-de-alta-performance/">Artigo de imagem responsiva</a>
