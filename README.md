@@ -55,8 +55,41 @@ Curso Web Design Responsivo: Páginas que se adaptam do mobile ao desk: https://
 
 # Aula 3: Media Queries
 
-> DESIGN FLUÍDO RESOLVE SÓ METADE DO PROBLEMA. Com Media queires podemos deixar o nosso site muito, mais muito flexivel..
+> DESIGN FLUÍDO RESOLVE SÓ METADE DO PROBLEMA. Com Media queries podemos deixar o nosso site muito, mais muito flexivel..
 
 - Para isso usamos o Media Querie. Com ele podemos adaptar nosso site a diversas resolução de dispositivos.
 
 > Para implementar o media querie podemos por ```@media ();```, sem contar outros valores que precisamos especificar no @media.
+> - Assim surgindo o ```"Layout Condicional"```, onde podemos especificar um determinado estilo a tela.
+
+- exemplo 
+
+```css
+  .secao {
+    width: 100%;
+  }
+  .secao {
+    width: 50%;
+  }
+  .secao {
+    width: 33.333%;
+  }
+```
+
+ - Imagine-se esses três códigos, todos corretos, porém cada um para um tipo de cenário específico: desktop, mobile e tablet.
+
+```css
+    .secao {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .secao {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .secao {
+      width: 33.333%;
+    }
+  }
+``` 
