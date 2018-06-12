@@ -93,3 +93,49 @@ Curso Web Design Responsivo: Páginas que se adaptam do mobile ao desk: https://
     }
   }
 ``` 
+
+- Podemos entrar nesse link e saber mais sobre os @media query <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries">Media Query </a>
+
+# Aula 4: Workflow & Viewport
+
+> Viewport o fluxo para desenvolvimento quando referece a sites mobile responsivo, onde podemos acompanhar todo o desenvolvimento e teste em algum emulador ou no proprio mobile.
+
+ - Quando testamos um site em algum celular, notamos que algums abre em versao desktop, isso porque celulares ate mesmo com o iphone suporta duas formas de vizualizar o site, desktop e mobile. 
+
+- para sinalizar que queremos q aquele site seja vizualizado no mobile quando estiver em um celular precisamos informar ao nosso HTML.
+
+```html
+  <meta name="*viewport*" content="width=device-width">
+```
+
+- Assim terá suporte a todos os dispositivos mobile.
+
+> Podemos Realizar varios teste com emuladores , consoles dos navegadores o inspect, fazer compartibilidade com dispositivo no computador abilitando as  opçoes de simuladores. Ou conexões remotas com o weinre...
+
+# Aula 5: Menu Responsivo
+
+> Podemos Criar menu responsivo com as propriedades que vimos o ```@media``` que possibilita fazer menu diferente dependendo do tipo de tela.
+
+- Como Exemplo esse site abaixo temos ele aberto em plataforma desktop onde o menu esta estendido com todos seus efeitos de estilo e etc..
+
+**Foto ilustrativa**
+<p align="center">
+  <img src="http://www.vmaffluence-shoptechnology.biz/wp-content/uploads/2017/03/w4.png" width="500px" height="250px">
+</p>
+
+  
+
+- ao abrir ou redimencionar o site ele vai fazer o menu colapsar.
+
+**Foto ilustrativa**
+<p align="center">
+  <img src="https://inspirationalpixels.com/wp-content/uploads/2014/08/responsive-menu-thumb1-910x540.png" width="500px" height="250px">
+</p>
+
+- Ou da forma que achar melhor...
+
+# Aula 6 : Imagens Responsivas
+
+> As imagens são parte essencial de todas as páginas da Web e quando falamos de Design Responsivo.
+
+- como em tela as image também tem uma enorme importancia em relação aos pixeis.
